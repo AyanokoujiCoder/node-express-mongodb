@@ -1,0 +1,91 @@
+1. ¿Qué es Node.js?
+
+Un entorno de ejecución para JavaScript del lado del servidor
+basado en el motor V8 de Chrome.
+
+2. ¿Cómo se inicia un nuevo proyecto de Node.js?
+
+Usando 'npm init' para crear un archivo package.json
+
+3. ¿Qué es NPM en el contexto de Node.js?
+
+Node Package Manager, un gestor de paquetes para instalar y
+administrar módulos de Node.js.
+
+4. ¿Cómo se crea un servidor HTTP básico en Node.js?
+
+Usando el módulo 'http' y su método 'createServer'.
+
+5. ¿Qué es Express en Node.js?
+
+Un marco de trabajo web minimalista y flexible para Node.js que
+facilita la recreación de aplicaciones web y API.
+
+6. ¿Cómo se instala Express en un proyecto de Node.js?
+
+Con el comando 'npm install express'.
+
+7. ¿Cómo se manejan las rutas en Express?
+
+Usando métodos de Express como get, post, put, y delete.
+
+8. ¿Qué es un middleware en Express?
+
+Funciones que tienen acceso al objeto de solicitud, el objeto de
+respuesta y a la siguiente función middleware en el ciclo de solicitud-respuesta.
+
+9. ¿Cómo se envia un archivo JSON como respuesta en Express?
+
+Usando el método 'res.json()'.
+
+10. ¿Cómo se manejan los errores en Express?
+
+Con middleware de manejo de errores y el método 'next'.
+
+11. ¿Qué es el objeto 'req' en Express?
+
+Un objeto que representa la solicitud HTTP y tiene propiedades para la cadena de
+consulta, parámetros, cuerpo, encabezado HTTP, etc.
+
+12. ¿Cómo se recogen los datos de un formulario enviado en Express?
+
+Usando un middleware como body-parser para analizar los datos del
+cuerpo de la solicitud.
+
+13. ¿Cómo se establece un motor de plantillas en Express?
+
+Con 'app.set('view engine', 'nombreMotor')' y usando 'res.render' para enviar
+la respuesta.
+
+14. ¿Qué es Socket.IO en el contexto de Node.js?
+
+Una biblioteca que permite la comunicación en tiempo real entre clientes web y
+un servidor Nodej.js
+
+15. ¿Cómo se maneja la autenticación en apliaciones Express?
+
+Usando middleware como Passport.js para integrar estrategias de autenticación.
+
+16. ¿Cómo se utilizan las variables de entorno en Node.js?
+
+Con 'process.env.NOMBRE_VARIABLE' después de cofigurarlas, comúnmente con un
+archivo .env.
+
+17. ¿Qué es un archivo package.json en Node.js?
+
+Un archivo que almacena información importante del proyecto, como metadatos y
+dependencias.
+
+18. ¿Cómo se actualiza Node.js a una versión más reciente?
+
+Usando un gestor de versiones como nvm o descargando directamente desde el
+sitio web de Node.js.
+
+19. ¿Cómo se gestiona el archivo de log en una aplicación Node.js?
+
+Usando módulos como 'winston' o 'morgan' para personalizar y
+gestionar los logs.
+
+20. ¿Qué es npm scripts en el archivo package.json?
+
+Scripts personalizados que se pueden ejecutar con 'npm run nombreScript'.

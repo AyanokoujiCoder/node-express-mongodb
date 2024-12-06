@@ -1,0 +1,13 @@
+Connect with Connection String: https://www.youtube.com/watch?v=H9M02of22z4&list=WL&index=6&t=2251s
+
+mongodb+srv://angelcallejasegura2024:Fth7C8fxi9yCLLek@ayanokoujicluster.m762v.mongodb.net/
+
+--- or ---
+
+mongodb+srv://angelcallejasegura2024:Fth7C8fxi9yCLLek@ayanokoujicluster.m762v.mongodb.net/mycontacts-backend
+
+Vamos ahora a copiar este codigo de Mongo DB Drivers y meterlo en '.env'
+
+CONNECTION_STRING=mongodb+srv://angelcallejasegura2024:Fth7C8fxi9yCLLek@ayanokoujicluster.m762v.mongodb.net/mycontacts-backend?retryWrites=true&w=majority&appName=ayanokoujicluster
+
+Verificar los permisos y los privilegios para acceder a nuestra base de datos y configurar la conexion a intenet con nuestra IP.

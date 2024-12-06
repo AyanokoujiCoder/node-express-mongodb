@@ -1,0 +1,17 @@
+POST: http://localhost:5001/api/users/register
+
+{
+  "message": "Register the user"
+}
+
+POST: http://localhost:5001/api/users/login
+
+{
+  "message": "login user"
+}
+
+POST: http://localhost:5001/api/users/current
+
+{
+  "message": "Current user information"
+}

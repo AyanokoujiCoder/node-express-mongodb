@@ -1,0 +1,71 @@
+- Recuerda iniciar sesion en la pagina de Mongo DB para ejecutar nuestra base de datos en nuestro Visual Code.
+- Tambien en ejecutar el Javascript 'server.js' dando play para ver en la terminal que se este ejecutando.
+- Luego vamos a Thunder donde dice 'send'.
+
+Copiamos y pegamos los numeros "_id": "674a9366bd85e97e784138dc"
+GET: http://localhost:5001/api/contacts/674a9366bd85e97e784138dc
+
+Actualizamos los datos:
+
+{
+  "name": "Dipesh Malvia",
+  "email": "dipesh.malvia@gmail.com",
+  "phone": "09876543"
+}
+
+PUT: http://localhost:5001/api/contacts/674a9366bd85e97e784138dc
+
+Cambiamos a Delete.
+
+DELETE: http://localhost:5001/api/contacts/674a9366bd85e97e784138dc
+
+Veremos en la terminal: No Error, All good !
+
+El mensaje indica que el servidor está funcionando correctamente y que la conexión a la base de datos 
+de MongoDB Atlas se estableció sin problemas. Aquí está el desglose del mensaje:
+
+Server running on port 5001:
+
+Tu servidor Express está escuchando en el puerto 5001, lo que significa que la aplicación está lista para recibir solicitudes.
+Database connected:
+
+Se conectó correctamente a tu base de datos alojada en MongoDB Atlas, y el URI incluye información sobre el 
+clúster y el nombre de la base de datos (mycontacts-backend).
+No Error, All good !:
+
+Este mensaje probablemente viene de una parte del código que verifica la conexión a la base de datos o el estado 
+del servidor. Significa que todo está funcionando como debería.
+
+Posibles Acciones para Probar tu Código
+Pruebas de los Endpoints:
+
+Usa herramientas como Postman o Thunder Client (extensión de VSCode) para enviar solicitudes a tus endpoints.
+Por ejemplo:
+GET /api/contacts → debería devolver una lista de contactos (vacía si no hay datos).
+POST /api/contacts → envía un cuerpo con name, email y phone para crear un contacto.
+Verificación en MongoDB Atlas:
+
+Ingresa a MongoDB Atlas, abre tu clúster y verifica si los datos se están almacenando en la colección contacts.
+Validar el Middleware:
+
+Si usas express-async-handler, asegúrate de tener un middleware global para manejar los errores.
+
+{
+  "title": "Not Found",
+  "message": "Contact not found",
+  "stackTrace": "Error: Contact not found..."
+}
+
+Para userController. Vamos a Thunder.
+
+GET: http://localhost:5001/api/users/current
+
+{
+  "message": "Current user information"
+}
+
+POST: http://localhost:5001/api/users/register
+
+{
+  "message": "Register the user"
+}

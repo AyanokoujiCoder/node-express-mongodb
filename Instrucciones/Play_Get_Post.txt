@@ -1,0 +1,30 @@
+Recuerda siempre poner Play para ejecutar el codigo y ver en Thunder resivir la conexion del servidor.
+Status: 200 OK
+Size: 2 Bytes
+Time: 167 ms
+
+{
+  "name": "Dipesh",
+  "email": "dipesh@gmail.com",
+  "phone": "09876543"
+}
+
+[]
+
+Response: 
+
+Status: 201 Created
+Size: 182 Bytes
+Time: 164 ms
+
+{
+  "name": "Dipesh",
+  "email": "dipesh@gmail.com",
+  "phone": "09876543",
+  "_id": "674a9366bd85e97e784138dc",
+  "createdAt": "2024-11-30T04:24:06.915Z",
+  "updatedAt": "2024-11-30T04:24:06.915Z",
+  "__v": 0
+}
+
+Verificamos en Mongo DB en contacts en documents unos numeros que seria un registro.

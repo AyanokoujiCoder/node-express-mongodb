@@ -1,0 +1,9 @@
+Thunder Client
+
+GET: http://localhost:5001/api/contacts 'Presionamos send' Status: 200 OK Size: 30 Bytes Time: 6 ms
+POST: http://localhost:5001/api/contacts 'Presionamos send' Status: 201 Created Size: 28 Bytes Time: 4 ms
+PUT: http://localhost:5001/api/contacts/1 'Presionamos send' Status: 200 OK Size: 34 Bytes Time: 6 ms
+DELETE: http://localhost:5001/api/contacts/1 'Presionamos send' Status: 200 OK Size: 34 Bytes Time: 11 ms
+GET: http://localhost:5001/api/contacts/1 'Presionamos send' Status: 200 OK Size: 31 Bytes Time: 5 ms
+
+Learn Node.js & Express with Project in 2 Hours - Minuto 32:00 'async'.

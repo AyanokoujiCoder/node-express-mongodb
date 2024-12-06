@@ -1,0 +1,32 @@
+Link del Video Node.js & Express: https://www.youtube.com/watch?v=H9M02of22z4
+
+Instalamos Express: $ npm install express 
+
+Instala Nodemon como una dependencia de desarrollo: $ npm i -D nodemon
+
+Se usa para ejecutar un script llamado dev que está definido en el archivo package.json: $ npm run dev
+
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node servr.js",
+    "dev": "nodemon server.js"
+},
+
+Vamos a Thunder Client y arriba escribimos: http://localhost:5001
+
+Corremos el código primero 'server.js' y damos en 'send'.
+
+Ahora escribimos: http://localhost:5001/api/contacts
+
+Reiniciamos el Play y volvemos a ejecutar el código y dira Status: 200 OK
+con el texto: Get all contacts.
+
+Escribimos y ejecutamos: $ http://localhost:5001/api/contacts/1
+
+Cambiamos a Delete o a otras opciones y verificamos si funciona.
+
+Hacemos una instalación de 'npm Express async Handler': $ npm i express-async-handler
+
+Iniciamos secion en la pagina oficial de MongoDb.
+
+Instalamos en Prugling de MongoDB en Visual Code.

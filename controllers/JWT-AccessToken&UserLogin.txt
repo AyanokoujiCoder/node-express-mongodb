@@ -1,0 +1,29 @@
+https://jwt.io/
+
+Instalamos el Token Web Json: $ npm i jsonwebtoken
+
+En '.env' Token de acceso directo escribimos: ACCESS_TOKEN_SECERT.
+No debes de hacerlo cuando haces un código de nivel de producción.
+
+Ahora que hemos escrito las lineas de codigo en 'userController', 
+vamos a Thunder.
+
+POST: http://localhost:5001/api/users/login
+
+Modificamos quitando el username:
+
+{
+  "email": "john.doe@example.com",
+  "password": "password123"
+}
+
+Obtenemos el Token:
+
+{
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1
+  lIjoiSm9obkRvZSIsImVtYWlsIjoiam9obi5kb2VAZXhhbXBsZS5jb20iLCJpZCI6IjY3NGQzNzc
+  3NDI2YTkyNWRiZTJlNWRkNCJ9LCJpYXQiOjE3MzMxNTQ2MzAsImV4cCI6MTczMzE1NDY5MH0.EIW
+  SFB21JVt8RSPlnIYb4aEA7bSbZY3tmfcmDH3Emj4"
+}
+
+Ahora copiamos y pegamos el token y vamos a ver la imagen 'Verify-JWT'.
